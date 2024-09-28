@@ -1,24 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import {Grid} from '@material-ui/core';
+import SortingVisualiser from './components/SortingVisualiser/SortingVisualiser.jsx'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Grid
+    direction="column"
+    style={{ height: '100vh' , width: '1500px'}}>
+      <SortingVisualiser />
+    </Grid>
   );
 }
 

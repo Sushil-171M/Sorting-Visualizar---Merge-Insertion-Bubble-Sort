@@ -1,0 +1,16 @@
+.array-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    width: 80vw;
+    margin: 20px;
+}
+.array-bar {
+    width: 5px;
+    display: inline-block;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 1px;
+    background-color: rgb(4, 135, 85);
+}
